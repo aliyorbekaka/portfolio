@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800;900&display=swap");
+
+/* Core styles */
+body {
+    background-color: rgb(27, 26, 26);
+    font-family: "Montserrat", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.blur-line {
+    display: inline-block;
+    width: 80px;
+    height: 4px;
+    background: rgba(237, 35, 159, 0.6);
+    filter: blur(4px);
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+/* Main Header styles */
+.main-header {
+    display: flex;
+    justify-content: space-around;
+    gap: 500px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 75px;
+    background: black;
+    box-shadow: 0 3px 16px 0 rgb(0 0 0 / 10%);
+}
+
+.main-header h1 {
+    color: #ffff;
+}
+
+.main-navigation {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 900px;
+}
+
+.main-navigation_items .active a {
+    color: #118DA8;
+}
+
+.main-navigation_item {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+.main-navigation_item a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: 0.2s;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.main-navigation_item a:hover {
+    color: #118DA8;
+    cursor: pointer;
+}
+
+/* main banner */
+.main-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.main-section_welcom {
+    color: #ffff;
+    font-weight: 400;
+    font-size: 70px;
+}
+
+.main-section-info p {
+    color: rgb(255, 255, 255);
+    font-weight: 200;
+}
+
+.box_1 {
+    border: none;
+    background-color: rgb(32, 32, 32);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 40px 50px;
+    border-radius: 50px;
+}
+
+.box_2 {
+    border: none;
+    background-color: rgb(32, 32, 32);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 40px 50px;
+    border-radius: 50px;
+}
+
+.box_3 {
+    border: none;
+    background-color: rgb(32, 32, 32);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 40px 50px;
+    border-radius: 50px;
+}
+
+
+.menu-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-title h1 {
+    color: #ffff;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+.car h1,
+p,
+h4 {
+    color: #ffff;
+}
+
+.car h1 {
+    font-weight: 400;
+    font-size: 60px;
+}
+
+.car h4 {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.btn {
+    width: 150px;
+    height: 50px;
+    background-color: #118DA8;
+    color: #ffff;
+    border-radius: 10px;
+    border: none;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+}
+
+.about-text h1 {
+    font-weight: 400;
+    font-size: 60px;
+    color: #ffff;
+}
+
+.about-text h4 {
+    font-weight: 200;
+    font-size: 20px;
+    color: #ffff;
+}
+
+
+
+.emails {
+    margin-top: 90px;
+}
+
+.emils-title p {
+    color: #118DA8;
+}
+
+.emils-title h1 {
+    font-weight: 400;
+    font-size: 60px;
+    color: #ffff;
+}
+
+.box_4 {
+    border: none;
+    background-color: rgb(32, 32, 32);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 40px 50px;
+    border-radius: 50px;
+}
+
+.box_4 input {
+    background-color: dimgray;
+    padding: 15px 40px;
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.box_4 button {
+    background: #118DA8;
+    padding: 15px 40px;
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.m12333 {
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+}
+
+.fa-brands{
+    color: #ffff;
+}
+
+.m12333-i  h1{
+    font-size: 40px;
+    font-weight: 500;
+    color: #ffff;
+}
+
+.m12333-im {
+    color: #ffff;
+}
+
+.m12333-img {
+    color: #ffff;
+}
